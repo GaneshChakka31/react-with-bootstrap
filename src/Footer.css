@@ -1,0 +1,74 @@
+.footer {
+  background-color: #111;
+  color: white;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.footer-column {
+  flex: 1 1 200px;
+  min-width: 200px;
+}
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px; 
+}
+.footer-column ul {
+  list-style: none;
+}
+.footer-column ul li {
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+.connect .subscribe-box {
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+  overflow: hidden;
+  margin: 10px 0;
+  border: 1px solid black;
+}
+.connect .subscribe-box input {
+  flex: 1;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+.connect .subscribe-box button {
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+}
+.social-icons {
+  display: flex;
+  gap: 15px;
+  font-size: 20px;
+  margin: 15px 0;
+  cursor: pointer;
+}
+li:hover{
+color: rgb(42, 206, 247);
+}
+.icon-facebook:hover{
+   color: blue;
+}
+.icon-youtube:hover{
+   color: red;
+}
+.icon-whatsapp:hover{
+   color: green;
+}
+.icon-twitter:hover{
+   color: blue;
+}
+.icon-linkedin:hover{
+   color: rgb(24, 174, 234);
+}

@@ -1,0 +1,173 @@
+.product-detail-container {
+  overflow: visible;
+}
+
+.thumbnail-img {
+  width: 60px;
+  height: 150px;
+  object-fit: cover;
+  cursor: pointer;
+  border-radius: 8px;
+  border: 2px solid white;
+  margin-top: 30%;
+}
+.thumbnail-img.active {
+  border-color:#00ffd9;
+}
+.product-info-section {
+  overflow-y: auto;
+  max-height: 400px;
+  padding-left: 20px;
+}
+.star{
+  color: rgb(18, 218, 168);
+}
+.brand-color-box {
+  background-color: black;
+  color: white;
+  padding: 6px 12px;
+  border: 1px solid #00ffff; 
+  border-radius: 6px;
+  font-weight: bold;
+  display: inline-block;
+  cursor: pointer;
+}
+
+span:hover{
+background-color: #75bbcc;
+}
+
+.offers-row {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;       
+  padding-bottom: 10px;
+}
+
+.offer-card {
+  background-color: #1c1c1c;
+  border-radius: 10px;
+  padding: 15px;
+  width: 280px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.5);
+  border: 1px solid gray;
+}
+
+.offer-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+  
+}
+
+.bank-logo {
+  width: 50px;
+  height: 24px;
+
+}
+
+/* .view-more {
+  color: #00bfff;
+  font-size: 0.9rem;
+  text-decoration: underline;
+  cursor: pointer;
+  border: 5px solid red;
+} */
+.keyfeature{
+  border: 2px solid gray;
+  border-radius: 10px;
+  
+}
+.product-detail-container img {
+  height: 50px;
+  margin-top: 20px;
+}
+
+/* 320px - Small screens (default) */
+@media (max-width: 480px) {
+  .thumbnail-img {
+    width: 60px;
+    height: 70px;
+    margin-top: 10px;
+  }
+.ReactImageMagnify{
+  width: 50%;
+  height: 10%;
+  margin-top: 25%;
+}
+.product-info-section {
+  padding-left: 5%;
+  max-height: none;
+  }
+  
+
+  /* .product-detail-container img {
+  height: 50px;
+  border: 5px solid red;
+} */
+
+  .fixed-bottom {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .fixed-bottom button {
+    width: 100%;
+  }
+}
+
+/* 768px - Tablets */
+@media (min-width: 481px) and (max-width: 768px) {
+  .thumbnail-img {
+    width: 60px;
+    height: 60px;
+    margin-top: 10px;
+  }
+
+  .product-info-section {
+    padding-left: 10px;
+    max-height: 400px;
+  }
+
+  .offer-card {
+    width: 250px;
+  }
+
+  .fixed-bottom {
+    justify-content: space-between;
+    padding: 1rem;
+  }
+}
+
+/* 1024px - Small laptops */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .product-info-section {
+    padding-left: 20px;
+    max-height: 500px;
+  }
+
+  .offer-card {
+    width: 270px;
+  }
+
+  .fixed-bottom {
+    padding: 1rem 2rem;
+  }
+}
+
+/* 1440px - Large screens */
+@media (min-width: 1025px) {
+  .product-info-section {
+    padding-left: 30px;
+  }
+
+  .offer-card {
+    width: 280px;
+  }
+}
+.accordion{
+  border: 2px solid white;
+}

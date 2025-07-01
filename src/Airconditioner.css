@@ -1,0 +1,20 @@
+.home-card{
+  /* background: "linear-gradient(135deg, #0f1c29 0%, #6a0dad 50%, #00aaff 100%)"; */
+  /* background: linear-gradient(135deg,  #000000 0%, #1a1b2f 50%, #3e0c58 100%); */
+  padding: "20px";
+  border-radius: 10%;
+}
+.home-card img{
+background-color: rgb(46, 46, 46);
+border-radius: 8%;
+row-gap: 10%;
+}
+.offer-pill{
+  background-color: #D4FFF1;
+  border-radius: 30px;
+  padding: 7px;
+  color: #007F6C;
+  font-weight: bold;
+  
+}
+

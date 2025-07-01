@@ -1,0 +1,31 @@
+*{
+  background-color: rgb(33, 32, 32);
+}
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+  margin-top: 50px;
+}
+.carousel-control-prev-icon
+{
+    margin-right: 80px;
+}
+.carousel-control-next-icon {
+    margin-left: 80px;
+}
+.carousel-inner img {
+  max-height: 600px;
+  object-fit: cover;
+  margin-top: 80px;
+}
+.row.card,img,h5,p{
+  padding: "20px";
+  border-radius: 10px;
+}
+.card-bg {
+  background: linear-gradient(230deg, #050505, #20114d, #3d2b84, #5199d3);
+}

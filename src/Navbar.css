@@ -1,0 +1,57 @@
+/* *{
+  background-color: black;
+} */
+.logo {
+  font-family: 'Georgia', serif;
+  font-size: 28px;
+  font-weight: bold;
+ 
+}
+.logo a{
+  color: white;
+  text-decoration: none;
+}
+
+.logo .bar {
+  color: #00ffd5;
+  font-size: 32px;
+  line-height: 0;
+  vertical-align: top;
+}
+
+.search-bar {
+  width: 40%;
+  background-color: white;
+  border-radius: 6px;
+  padding: 5px 10px;
+}
+
+.search-bar input {
+  border: none;
+  outline: none;
+  flex: 1;
+}
+
+.search-icon {
+  color: black;
+  cursor: pointer;
+}
+/* 
+.cart-count {
+  font-size: 10px;
+  padding: 2px 5px;
+} */
+.dropdown-menu li{
+  background-color: gray;
+}
+@media screen and (max-width: 320px){
+.search-bar {
+  width: 100%;
+}
+}
+
+@media screen and (max-width: 768px){
+.search-bar {
+  width: 100%;
+}
+}
